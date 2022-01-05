@@ -1,0 +1,198 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  line-height: 1.5;
+}
+
+/* base styles */
+
+.text-secondary {
+  color: #22577e;
+}
+.text-center {
+  text-align: center;
+}
+.text-b {
+  font-weight: bold;
+}
+
+.br-sm {
+  border-radius: 10px;
+}
+
+.bg-lightpink {
+  background-color: #fcefff;
+}
+.bg-lightblue {
+  background-color: #d7f4ff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.justify-start {
+  justify-items: flex-start;
+  justify-content: flex-start;
+}
+
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-80 {
+  width: 80%;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+.vh-60 {
+  height: 60vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.m-auto {
+  display: block;
+  margin: 0 auto;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+.pt-120 {
+  padding-top: 120px;
+}
+.pt-150 {
+  padding-top: 150px;
+}
+
+.pb-10 {
+  padding-bottom: 15px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #22577e;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background-color: #1a374d;
+}
+
+.input-field {
+  display: block;
+  padding: 15px 30px;
+  margin: 20px auto;
+  border-radius: 6px;
+  border: 1px solid #225773;
+  width: 40%;
+}
+
+/* Specific Styles */
+.header-heading {
+  border-left: 3px solid #22577e;
+}
+
+#missions img {
+  width: 30%;
+}
+
+#develop {
+  background-image: url('/images/shapes/shape-1.png');
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: 4% 60%;
+}
+
+#community {
+  background-image: url('/images/shapes/shape-1.png');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 95% 95%;
+}
+
+#footer {
+  color: white;
+  background-color: #000;
+  padding: 60px;
+}
+
+#footer a:hover {
+  color: #1a374d;
+}
