@@ -174,14 +174,14 @@ p {
 }
 
 #develop {
-  background-image: url('/images/shapes/shape-1.png');
+  background-image: url('images/shapes/shape-1.png');
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: 4% 60%;
 }
 
 #community {
-  background-image: url('/images/shapes/shape-1.png');
+  background-image: url('images/shapes/shape-1.png');
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: 95% 95%;
